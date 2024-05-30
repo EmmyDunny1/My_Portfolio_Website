@@ -2,6 +2,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+*{
+     
+     margin:0px;
+     padding:0px;
+     text-decoration: none;
+     align-items:center;
+     font-family: 'Poppins', Sans-serif;
+     box-sizing:border-box;
+     border: none;
+     outline: none;
+     scroll-behaviour: smooth;
+     
+}
+
+:root{
+     --bg-color:#081b29;
+     --main-color:#00DBE8;
+     --text-color: #FFFFFF;
+}
+
+html{
+overflow-x:hidden;
+     
+}
+
+body{
+     background-color: var(--bg-color);
+     color: var(--main-color) ;
+}
+
+header{
+
+display:flex;
+justify-content:space-between;
+margin: 2% 7%; 
+z-index: 100;
+left:0;
+top:0;
+align-items:center;
+
+
+
+}
+
+header a{
+         
+     color: var(--text-color);
+     
+}
+header .logo{
+     font-size: 2rem;
+     font-weight: 600;
+}
+
+.Navbar a{
+     color: var(--text-color);
+     padding-left: 30px;
+     
+}
+
+.Navbar a:hover, a.active{
+     color: var(--main-color);
+     
+}
+
+
+
+
+
 
 .bx-menu{
      display:none;
