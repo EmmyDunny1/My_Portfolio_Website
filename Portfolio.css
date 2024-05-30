@@ -13,6 +13,8 @@
      border: none;
      outline: none;
      scroll-behaviour: smooth;
+     max-width: 1000px;
+     max-height:500px;
      
 }
 
@@ -29,7 +31,7 @@ overflow-x:hidden;
 
 body{
      background-color: var(--bg-color);
-     color: var(--main-color) ;
+     color: var(--text-color)
 }
 
 header{
@@ -41,7 +43,6 @@ z-index: 100;
 left:0;
 top:0;
 align-items:center;
-
 
 
 }
@@ -67,11 +68,43 @@ header .logo{
      
 }
 
+.Home{
+     display:flex;
+     width: 85%;
+     margin: 30px 7%;
+     
+     
+     
+}
 
 
 
+img { width:11rem;
+height:12rem;
+border-radius: 50%;.
+
+justify-content: space-between;
+}
+
+.Pics {
+     
+     
+}
 
 
+.Home div h1{ font-size: 2.5rem}
+
+.details div{ margin-right: 50px;
+margin-bottom: 10px;
+}
+
+.details div h3{
+     font-size: 2rem;
+}
+
+     
+/* 
 .bx-menu{
      display:none;
-}
+     
+} */
